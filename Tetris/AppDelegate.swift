@@ -2,7 +2,6 @@
 //  AppDelegate.swift
 //  Tetris
 //
-//  Created by Christopher Boggs on 9/11/16.
 //  Copyright © 2016 Christopher Boggs. All rights reserved.
 //
 

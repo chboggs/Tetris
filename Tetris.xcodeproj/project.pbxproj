@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		099AD7FF1D85ED5900EEDF4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099AD7FE1D85ED5900EEDF4D /* AppDelegate.swift */; };
-		099AD8011D85ED5900EEDF4D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 099AD8001D85ED5900EEDF4D /* GameScene.sks */; };
 		099AD8031D85ED5900EEDF4D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099AD8021D85ED5900EEDF4D /* GameScene.swift */; };
 		099AD8051D85ED5900EEDF4D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099AD8041D85ED5900EEDF4D /* GameViewController.swift */; };
 		099AD8081D85ED5900EEDF4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099AD8061D85ED5900EEDF4D /* Main.storyboard */; };
 		099AD80A1D85ED5900EEDF4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 099AD8091D85ED5900EEDF4D /* Assets.xcassets */; };
 		099AD80D1D85ED5900EEDF4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099AD80B1D85ED5900EEDF4D /* LaunchScreen.storyboard */; };
+		099AD8151D85EE6F00EEDF4D /* GameSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099AD8141D85EE6F00EEDF4D /* GameSpace.swift */; };
+		099AD8171D85EF5100EEDF4D /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099AD8161D85EF5100EEDF4D /* Block.swift */; };
+		099AD8191D85EFC200EEDF4D /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099AD8181D85EFC200EEDF4D /* Shape.swift */; };
+		099AD81B1D85EFF500EEDF4D /* AllShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099AD81A1D85EFF500EEDF4D /* AllShapes.swift */; };
+		099AD81D1D85F35E00EEDF4D /* Tetris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099AD81C1D85F35E00EEDF4D /* Tetris.swift */; };
+		099AD8211D85FF8D00EEDF4D /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 099AD8201D85FF8D00EEDF4D /* Sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		099AD7FB1D85ED5900EEDF4D /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		099AD7FE1D85ED5900EEDF4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		099AD8001D85ED5900EEDF4D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		099AD8021D85ED5900EEDF4D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		099AD8041D85ED5900EEDF4D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		099AD8071D85ED5900EEDF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		099AD8091D85ED5900EEDF4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		099AD80C1D85ED5900EEDF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		099AD80E1D85ED5900EEDF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099AD8141D85EE6F00EEDF4D /* GameSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSpace.swift; sourceTree = "<group>"; };
+		099AD8161D85EF5100EEDF4D /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		099AD8181D85EFC200EEDF4D /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		099AD81A1D85EFF500EEDF4D /* AllShapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllShapes.swift; sourceTree = "<group>"; };
+		099AD81C1D85F35E00EEDF4D /* Tetris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tetris.swift; sourceTree = "<group>"; };
+		099AD8201D85FF8D00EEDF4D /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +69,15 @@
 			isa = PBXGroup;
 			children = (
 				099AD7FE1D85ED5900EEDF4D /* AppDelegate.swift */,
-				099AD8001D85ED5900EEDF4D /* GameScene.sks */,
 				099AD8021D85ED5900EEDF4D /* GameScene.swift */,
+				099AD8161D85EF5100EEDF4D /* Block.swift */,
+				099AD8181D85EFC200EEDF4D /* Shape.swift */,
+				099AD81A1D85EFF500EEDF4D /* AllShapes.swift */,
 				099AD8041D85ED5900EEDF4D /* GameViewController.swift */,
+				099AD81C1D85F35E00EEDF4D /* Tetris.swift */,
+				099AD8141D85EE6F00EEDF4D /* GameSpace.swift */,
 				099AD8061D85ED5900EEDF4D /* Main.storyboard */,
+				099AD8201D85FF8D00EEDF4D /* Sprites.atlas */,
 				099AD8091D85ED5900EEDF4D /* Assets.xcassets */,
 				099AD80B1D85ED5900EEDF4D /* LaunchScreen.storyboard */,
 				099AD80E1D85ED5900EEDF4D /* Info.plist */,
@@ -129,10 +144,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				099AD8011D85ED5900EEDF4D /* GameScene.sks in Resources */,
 				099AD80D1D85ED5900EEDF4D /* LaunchScreen.storyboard in Resources */,
 				099AD80A1D85ED5900EEDF4D /* Assets.xcassets in Resources */,
 				099AD8081D85ED5900EEDF4D /* Main.storyboard in Resources */,
+				099AD8211D85FF8D00EEDF4D /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,8 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				099AD8151D85EE6F00EEDF4D /* GameSpace.swift in Sources */,
+				099AD8191D85EFC200EEDF4D /* Shape.swift in Sources */,
+				099AD81D1D85F35E00EEDF4D /* Tetris.swift in Sources */,
 				099AD8031D85ED5900EEDF4D /* GameScene.swift in Sources */,
+				099AD8171D85EF5100EEDF4D /* Block.swift in Sources */,
 				099AD8051D85ED5900EEDF4D /* GameViewController.swift in Sources */,
+				099AD81B1D85EFF500EEDF4D /* AllShapes.swift in Sources */,
 				099AD7FF1D85ED5900EEDF4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +313,7 @@
 				099AD8131D85ED5900EEDF4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
